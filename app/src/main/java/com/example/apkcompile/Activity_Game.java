@@ -79,7 +79,6 @@ public class Activity_Game extends AppCompatActivity {
                 imageButtonArr[i].setOnClickListener(new View.OnClickListener() {
                     public void onClick(View v) {
                         Activity_Game.this.arrowClicked(finalI);
-                        Log.d("pttt", "finalI");
                     }
                 });
                 i++;
